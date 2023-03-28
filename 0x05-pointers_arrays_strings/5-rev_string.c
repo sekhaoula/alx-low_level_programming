@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- *rev_string - unction that reverses a string. 
+ *rev_string - unction that reverses a string.
  *@s: the string to revers
 */
 
