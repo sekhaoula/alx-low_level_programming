@@ -2,7 +2,7 @@
 
 /**
  *rev_string - unction that reverses a string. 
- * @s: the string to revers
+ *@s: the string to revers
 */
 
 void rev_string(char *s)
@@ -12,7 +12,7 @@ void rev_string(char *s)
 	
 	len = 0;
 	len1 = 0;
-	
+
 	while (s[len] != '\0')
 	{
 		len++;
