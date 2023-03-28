@@ -1,9 +1,8 @@
 #include<stdio.h>
 
 /**
- * rint_rev - prints sting in revers
- * @str: the string reversed
- * Return: Always 0
+ * print_rev - prints sting in revers
+ * @s: the string reversed
 */
 
 void print_rev(char *s)
