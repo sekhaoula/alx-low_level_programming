@@ -3,7 +3,9 @@
 /**
  * main -  returns the length of a string
  * _strlen: provide the len of char
- * @s: return value of '_strlen'
+ * @s: string to check
+ *
+ * Return: return value of '_strlen'
 */
 
 int _strlen(char *s)
