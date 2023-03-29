@@ -9,12 +9,12 @@ void puts2(char *str)
 {
 	int N, i = 0;
 
-	while (str[i] !='\0')
+	while (str[i] != '\0')
 	{
 		i++;
 	}
 
-	for (N = 0; N < i; N+=2)
+	for (N = 0; N < i; N+= 2)
 	{
 		putchar(str[N]);
 	}
@@ -22,4 +22,4 @@ void puts2(char *str)
 	putchar('\n');
 
 }
-	
+
