@@ -15,20 +15,20 @@ void puts_half(char *str)
 		i++;
 	}
 
-	n = i / 2;
-
-	if (n % 2 == 0)
+	if (i % 2 == 0)
 	{
-		n = i / 2;
-		while (n % 2 != '\0')
+		for (n = i / 2; str[n] != '\0'; n++)
 		{
-			n = (i / 2) - 1;
+			putchar(str[n]);
 		}
 	}
 
-	for (x = n; x < i; x++)
+	else if (i % 2)
 	{
-		putchar(str[x]);
+		for (x = (i - 1) / 2; x < i - 1; x++)
+		{
+			putchar(str[x + 1]);
+		}
 	}
 
 	putchar('\n');
